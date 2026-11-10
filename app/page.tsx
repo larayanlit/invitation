@@ -394,7 +394,7 @@ export default function Home() {
           <a href="#home">Home</a>
           <a href="#blessings">Blessings</a>
           <a href="#families">Families</a>
-          <a href="#couple">Our story</a>
+          <a href="#couple">Our Story</a>
           <a href="#venue">Engagement Details</a>
           <a href="#details">Wedding Details</a>
         </nav>
