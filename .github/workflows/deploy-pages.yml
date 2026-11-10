@@ -33,7 +33,7 @@ jobs:
       - name: Build the static invitation
         run: npm run build:pages
         env:
-          NEXT_PUBLIC_BASE_PATH: /rathan-sushma-wedding
+          NEXT_PUBLIC_BASE_PATH: /invitation
       - name: Prepare Pages artifact
         run: cp -R out/. public-site
       - name: Upload site

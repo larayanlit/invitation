@@ -1,8 +1,6 @@
-# vinext-starter
+# Sanjay & Mohini · Wedding Invitation
 
-A clean full-stack starter running on
-[vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
-Drizzle support.
+Digital wedding invitation celebrating the union of Sanjay and Mohini on Wednesday, 2 December 2026.
 
 ## Prerequisites
 
@@ -45,7 +43,9 @@ import { headers } from "next/headers";
 export default async function Home() {
   const requestHeaders = await headers();
   const email = requestHeaders.get("oai-authenticated-user-email");
-  const encodedFullName = requestHeaders.get("oai-authenticated-user-full-name");
+  const encodedFullName = requestHeaders.get(
+    "oai-authenticated-user-full-name",
+  );
   const fullName =
     encodedFullName &&
     requestHeaders.get("oai-authenticated-user-full-name-encoding") ===
@@ -95,16 +95,16 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 ## Publish free with GitHub Pages
 
 This invitation is configured for a project repository named
-`rathan-sushma-wedding` under the GitHub account `rathanpv1997`.
+`invitation` under the GitHub account `larayanlit`.
 
-1. Create a new **public** GitHub repository named `rathan-sushma-wedding`.
+1. Create a new **public** GitHub repository named `invitation`.
 2. In the project folder, connect and push the code:
 
    ```bash
    git add .
    git commit -m "Publish wedding invitation"
    git branch -M main
-   git remote add origin https://github.com/rathanpv1997/rathan-sushma-wedding.git
+   git remote add origin https://github.com/larayanlit/invitation.git
    git push -u origin main
    ```
 
@@ -114,7 +114,7 @@ This invitation is configured for a project repository named
 The included workflow publishes the invitation automatically after each push to
 `main`. Your live link will be:
 
-`https://rathanpv1997.github.io/rathan-sushma-wedding/`
+`https://larayanlit.github.io/invitation/`
 
 ## Learn More
 

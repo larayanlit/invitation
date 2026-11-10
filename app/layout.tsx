@@ -12,19 +12,19 @@ const invitationAllura = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://rathanpv1997.github.io/rathan-sushma-wedding"),
-  title: "R ♥ S · 27 August 2026",
+  metadataBase: new URL("https://larayanlit.github.io/invitation"),
+  title: "S ♥ M · 2 December 2026",
   description: "A joyful surprise awaits.",
   openGraph: {
     type: "website",
     url: "/",
-    title: "R ♥ S · 27 August 2026",
+    title: "S ♥ M · 2 December 2026",
     description: "A joyful surprise awaits.",
-    images: [{ url: "/wedding-preview.png", width: 1200, height: 630, alt: "R love S · 27 August 2026" }],
+    images: [{ url: "/wedding-preview.png", width: 1200, height: 630, alt: "S love M · 2 December 2026" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "R ♥ S · 27 August 2026",
+    title: "S ♥ M · 2 December 2026",
     description: "A joyful surprise awaits.",
     images: ["/wedding-preview.png"],
   },
